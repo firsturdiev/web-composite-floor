@@ -1,0 +1,189 @@
+img {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto
+}
+.color {
+  color: #3d6cca
+}
+
+.border-solid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.border-solid::after {
+  content: '';
+  width: 30%;
+  height: 5px;
+  background-color: currentColor;
+}
+
+.product_item {
+  transition: .3s;
+}
+
+.product_item:hover {
+  transform: scale(1.05);
+}
+
+
+
+.about {
+  position: relative;
+  background-image: url('https://www.decnofloorings.com/themes/simplebootx/dekanuo/images/web4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #9CA3AF;
+  opacity: 0.5;
+}
+
+.logo {
+  width: 200px;
+}
+
+.about h2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.about h2::after {
+  content: '';
+  width: 15%;
+  height: 5px;
+  background-color: #000;
+}
+
+.about p {
+  width: 100%;
+}
+
+.btn-1 {
+  transition: .3s;
+  border: 2px solid rgb(55 65 81/var(--tw-text-opacity));
+}
+
+.btn-1:hover {
+  background: transparent;
+  color: rgb(55 65 81/var(--tw-text-opacity));
+}
+@media (min-width: 768px) {
+  .product_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    width: 45%;
+    flex-grow: 1;
+    height: 370px;
+    transition: .3s;
+  }
+  
+  .logo {
+    width: 300px;
+  }
+
+  .about p {
+    width: 50%;
+  }
+
+  .product_item p, 
+  .product_item svg {
+    opacity: 0;
+    color: #fff;
+    transition: .3s;
+  }
+
+  .product_item h2 {
+    color: #fff;
+  }
+
+  .product_item img {
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    margin: 0;
+    backface-visibility: visible;
+    transition: .3s;
+  }
+
+  .product_item:hover p,
+  .product_item:hover svg {
+    opacity: 1;
+    stroke-width: 3;
+  }
+
+  .product_item:hover {
+    background-color: #6B7280;
+  }
+
+  .product_item:hover img {
+    opacity: 0.5;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hjoverrr {
+  transition: .5s;
+}
+
+.hjoverrr:hover {
+  transform: scale(1.05);
+}
+
+.sakkk::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.item-active {
+  opacity: 0.8;
+}
+
+.item-active svg,
+.item-active a {
+  color: rgb(29, 78, 216);
+}
+
+.item-active:hover {
+  opacity: 1;
+}
+
+.itemd--active {
+  color: #1d4ed8;
+}
+
+.sckkk::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
