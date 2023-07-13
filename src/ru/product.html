@@ -501,6 +501,12 @@
       document.querySelector('#class').textContent = product.class;
       document.querySelector('#code').textContent = product.code;
       document.querySelector('#size').textContent = `${product.size} мм`;
+    } else if (product.categoryId == 7) {
+      document.querySelector('#img').src = `../../zoom-pics/${product.categoryId}-${product.code}.png`;
+      document.querySelector('#img').setAttribute('data-magnify-src', `../../zoom-pics/${product.categoryId}-${product.code}.png`);
+      document.querySelector('#class').parentElement.style.display = 'none';
+      document.querySelector('#code').textContent = product.code;
+      document.querySelector('#size').textContent = `${product.size} мм`;
     } else {
       document.querySelector('#img').src = `../../zoom-pics/${product.categoryId}-${product.code}.jpg`;
       document.querySelector('#img').setAttribute('data-magnify-src', `../../zoom-pics/${product.categoryId}-${product.code}.jpg`);

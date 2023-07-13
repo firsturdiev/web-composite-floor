@@ -748,597 +748,728 @@ document.querySelector(`*[data-id*="${props.pageId == 'product' ? 'categories' :
 
 window.data = [
   {
-      "id": 1,
-      "code": 1090,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 1,
+    "code": 1090,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 2,
-      "code": 1112,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 2,
+    "code": 1112,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 3,
-      "code": 20102,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 3,
+    "code": 20102,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 4,
-      "code": 2011,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 4,
+    "code": 2011,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 5,
-      "code": 20113,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 5,
+    "code": 20113,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 6,
-      "code": 3013,
-      "class": 34,
-      "size": "300х900х4",
-      "categoryId": 1
+    "id": 6,
+    "code": 3013,
+    "class": 34,
+    "size": "300х900х4",
+    "categoryId": 1
   },
   {
-      "id": 7,
-      "code": 88034,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 7,
+    "code": 88034,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 8,
-      "code": 88119,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 8,
+    "code": 88119,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 9,
-      "code": 88103,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 9,
+    "code": 88103,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 10,
-      "code": 88042,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 10,
+    "code": 88042,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 11,
-      "code": 88118,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 11,
+    "code": 88118,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 12,
-      "code": 880410,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 12,
+    "code": 880410,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 13,
-      "code": 88038,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 13,
+    "code": 88038,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 14,
-      "code": 88056,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 14,
+    "code": 88056,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 15,
-      "code": 88047,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 15,
+    "code": 88047,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 16,
-      "code": 88036,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 16,
+    "code": 88036,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 17,
-      "code": 11211,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 17,
+    "code": 11211,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 18,
-      "code": 88051,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 18,
+    "code": 88051,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 19,
-      "code": 2005,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 19,
+    "code": 2005,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 20,
-      "code": 88024,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 20,
+    "code": 88024,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 21,
-      "code": 10023,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 21,
+    "code": 10023,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 22,
-      "code": 20064,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 22,
+    "code": 20064,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 23,
-      "code": 20063,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 23,
+    "code": 20063,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
   {
-      "id": 24,
-      "code": 1020,
-      "class": 34,
-      "size": "1220х182х4",
-      "categoryId": 1
+    "id": 24,
+    "code": 1020,
+    "class": 34,
+    "size": "1220х182х4",
+    "categoryId": 1
   },
+
   {
-      "id": 25,
-      "code": 88025,
-      "class": 43,
-      "size": "750×150×4",
-      "categoryId": 2
+    "id": 25,
+    "code": 88025,
+    "class": 43,
+    "size": "750×150×4",
+    "categoryId": 2
   },
   {
-      "id": 26,
-      "code": 20102,
-      "class": 43,
-      "size": "750×150×4",
-      "categoryId": 2
+    "id": 26,
+    "code": 20102,
+    "class": 43,
+    "size": "750×150×4",
+    "categoryId": 2
   },
   {
-      "id": 27,
-      "code": 1092,
-      "class": 43,
-      "size": "750×150×4",
-      "categoryId": 2
+    "id": 27,
+    "code": 1092,
+    "class": 43,
+    "size": "750×150×4",
+    "categoryId": 2
   },
   {
-      "id": 28,
-      "code": 1082,
-      "class": 43,
-      "size": "750×150×4",
-      "categoryId": 2
+    "id": 28,
+    "code": 1082,
+    "class": 43,
+    "size": "750×150×4",
+    "categoryId": 2
   },
   {
-      "id": 29,
-      "code": 2005,
-      "class": 43,
-      "size": "750×150×4",
-      "categoryId": 2
+    "id": 29,
+    "code": 2005,
+    "class": 43,
+    "size": "750×150×4",
+    "categoryId": 2
   },
   {
-      "id": 30,
-      "code": 88051,
-      "class": 43,
-      "size": "750×150×4",
-      "image": "../img/product-41.png",
-      "categoryId": 2
+    "id": 30,
+    "code": 88051,
+    "class": 43,
+    "size": "750×150×4",
+    "image": "../img/product-41.png",
+    "categoryId": 2
   },
   {
-      "id": 31,
-      "code": 88293,
-      "class": 43,
-      "size": "750×150×4",
-      "categoryId": 2
+    "id": 31,
+    "code": 88293,
+    "class": 43,
+    "size": "750×150×4",
+    "categoryId": 2
   },
   {
-      "id": 32,
-      "code": 11211,
-      "class": 43,
-      "size": "750×150×4",
-      "categoryId": 2
+    "id": 32,
+    "code": 11211,
+    "class": 43,
+    "size": "750×150×4",
+    "categoryId": 2
   },
+
   {
-      "code": 61008,
-      "size": "100x3000",
-      "image": "../img/product-44.png",
-      "categoryId": 3,
-      "id": 33
+    "id": 33,
+    "code": 61008,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 61008,
-      "size": "80x3000",
-      "image": "../img/product-45.png",
-      "categoryId": 3,
-      "id": 34
+    "id": 34,
+    "code": 61009,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 82142,
-      "size": "100x3000",
-      "image": "../img/product-46.png",
-      "categoryId": 3,
-      "id": 35
+    "id": 35,
+    "code": 61026,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 82142,
-      "size": "80x3000",
-      "image": "../img/product-47.png",
-      "categoryId": 3,
-      "id": 36
+    "id": 36,
+    "code": 61033,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 80121,
-      "size": "100x3000",
-      "image": "../img/product-48.png",
-      "categoryId": 3,
-      "id": 37
+    "id": 37,
+    "code": 72002,
+    "size": "80x3000",
+    "categoryId": 3
   },
+  // {
+  //   "id": 38,
+  //   "code": 72067,
+  //   "size": "80x3000",
+  //   "categoryId": 3
+  // },
   {
-      "code": 80121,
-      "size": "80x3000",
-      "image": "../img/product-49.png",
-      "categoryId": 3,
-      "id": 38
+    "id": 39,
+    "code": 75008,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 88056,
-      "size": "100x3000",
-      "image": "../img/product-50.png",
-      "categoryId": 3,
-      "id": 39
+    "id": 40,
+    "code": 80121,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 88056,
-      "size": "80x3000",
-      "image": "../img/product-51.png",
-      "categoryId": 3,
-      "id": 40
+    "id": 41,
+    "code": 81008,
+    "size": "80x3000",
+    "categoryId": 3
   },
+  // {
+  //   "id": 42,
+  //   "code": 82142,
+  //   "size": "80x3000",
+  //   "categoryId": 3
+  // },
   {
-      "code": 88024,
-      "size": "100x3000",
-      "image": "../img/product-52.png",
-      "categoryId": 3,
-      "id": 41
+    "id": 43,
+    "code": 86006,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 88024,
-      "size": "80x3000",
-      "image": "../img/product-53.png",
-      "categoryId": 3,
-      "id": 42
+    "id": 44,
+    "code": 86009,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 88034,
-      "size": "100x3000",
-      "image": "../img/product-54.png",
-      "categoryId": 3,
-      "id": 43
+    "id": 45,
+    "code": 86056,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 88034,
-      "size": "80x3000",
-      "image": "../img/product-55.png",
-      "categoryId": 3,
-      "id": 44
+    "id": 46,
+    "code": 87002,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 81008,
-      "size": "100x3000",
-      "image": "../img/product-56.png",
-      "categoryId": 3,
-      "id": 45
+    "id": 47,
+    "code": 88024,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 81008,
-      "size": "80x3000",
-      "image": "../img/product-57.png",
-      "categoryId": 3,
-      "id": 46
+    "id": 48,
+    "code": 88056,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 87002,
-      "size": "100x3000",
-      "image": "../img/product-58.png",
-      "categoryId": 3,
-      "id": 47
+    "id": 49,
+    "code": 91022,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 87002,
-      "size": "80x3000",
-      "image": "../img/product-59.png",
-      "categoryId": 3,
-      "id": 48
+    "id": 50,
+    "code": 888001,
+    "size": "80x3000",
+    "categoryId": 3
   },
   {
-      "code": 91022,
-      "size": "100x3000",
-      "image": "../img/product-60.png",
-      "categoryId": 3,
-      "id": 49
+    "id": 51,
+    "code": '61008-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
   {
-      "code": 91022,
-      "size": "80x3000",
-      "image": "../img/product-61.png",
-      "categoryId": 3,
-      "id": 50
+    "id": 52,
+    "code": '61009-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
   {
-      "code": 75008,
-      "size": "100x3000",
-      "image": "../img/product-62.png",
-      "categoryId": 3,
-      "id": 51
+    "id": 53,
+    "code": '61026-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
   {
-      "code": 75008,
-      "size": "80x3000",
-      "image": "../img/product-63.png",
-      "categoryId": 3,
-      "id": 52
+    "id": 54,
+    "code": '61033-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
+  // {
+  //   "id": 55,
+  //   "code": '72002-2',
+  //   "size": "100x3000",
+  //   "categoryId": 3
+  // },
   {
-      "code": 61009,
-      "size": "100x3000",
-      "image": "../img/product-64.png",
-      "categoryId": 3,
-      "id": 53
+    "id": 56,
+    "code": '72067-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
   {
-      "code": 61009,
-      "size": "80x3000",
-      "image": "../img/product-65.png",
-      "categoryId": 3,
-      "id": 54
+    "id": 57,
+    "code": '75008-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
   {
-      "code": 86009,
-      "size": "100x3000",
-      "image": "../img/product-66.png",
-      "categoryId": 3,
-      "id": 55
+    "id": 58,
+    "code": '80121-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
   {
-      "code": 86009,
-      "size": "80x3000",
-      "image": "../img/product-67.png",
-      "categoryId": 3,
-      "id": 56
+    "id": 59,
+    "code": '81008-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
   {
-      "code": 86056,
-      "size": "100x3000",
-      "image": "../img/product-68.png",
-      "categoryId": 3,
-      "id": 57
+    "id": 60,
+    "code": '82142-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
   {
-      "code": 86056,
-      "size": "80x3000",
-      "packageCount": "25",
-      "image": "../img/product-69.png",
-      "categoryId": 3,
-      "id": 58
+    "id": 61,
+    "code": '86006-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
+  // {
+  //   "id": 62,
+  //   "code": '86009-2',
+  //   "size": "100x3000",
+  //   "categoryId": 3
+  // },
   {
-      "code": 61026,
-      "size": "100x3000",
-      "packageCount": "17",
-      "image": "../img/product-70.png",
-      "categoryId": 3,
-      "id": 59
+    "id": 63,
+    "code": '86056-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
   {
-      "code": 61026,
-      "size": "80x3000",
-      "image": "../img/product-71.png",
-      "categoryId": 3,
-      "id": 60
+    "id": 64,
+    "code": '87002-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
   {
-      "code": 61033,
-      "size": "100x3000",
-      "image": "../img/product-72.png",
-      "categoryId": 3,
-      "id": 61
+    "id": 65,
+    "code": '88024-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
   {
-      "code": 86006,
-      "size": "100x3000",
-      "image": "../img/product-73.png",
-      "categoryId": 3,
-      "id": 62
+    "id": 66,
+    "code": '88056-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
   {
-      "code": 72067,
-      "size": "100x3000",
-      "image": "../img/product-74.png",
-      "categoryId": 3,
-      "id": 63
+    "id": 67,
+    "code": '91022-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
   {
-      "code": 72002,
-      "size": "100x3000",
-      "image": "../img/product-75.png",
-      "categoryId": 3,
-      "id": 64
+    "id": 68,
+    "code": '888001-2',
+    "size": "100x3000",
+    "categoryId": 3
   },
+
   {
-      "code": 86056,
-      "size": "60x3000×17",
-      "image": "../img/product-76.png",
-      "categoryId": 4,
-      "id": 65
+    "id": 69,
+    "code": 61008,
+    "size": "60x3000×17",
+    "categoryId": 4
   },
   {
-      "code": 61026,
-      "size": "60x3000×17",
-      "image": "../img/product-77.png",
-      "categoryId": 4,
-      "id": 66
+    "id": 70,
+    "code": 61026,
+    "size": "60x3000×17",
+    "categoryId": 4
   },
   {
-      "code": 80121,
-      "size": "60x3000×17",
-      "image": "../img/product-78.png",
-      "categoryId": 4,
-      "id": 67
+    "id": 71,
+    "code": 61033,
+    "size": "60x3000×17",
+    "categoryId": 4
   },
   {
-      "code": 72067,
-      "size": "60x3000×17",
-      "image": "../img/product-79.png",
-      "categoryId": 4,
-      "id": 68
+    "id": 72,
+    "code": 62014,
+    "size": "60x3000×17",
+    "categoryId": 4
   },
   {
-      "code": 62014,
-      "size": "60x3000×17",
-      "image": "../img/product-80.png",
-      "categoryId": 4,
-      "id": 69
+    "id": 73,
+    "code": 62033,
+    "size": "60x3000×17",
+    "categoryId": 4
   },
   {
-      "code": 92079,
-      "size": "60x3000×17",
-      "image": "../img/product-81.png",
-      "categoryId": 4,
-      "id": 70
+    "id": 74,
+    "code": 80121,
+    "size": "60x3000×17",
+    "categoryId": 4
   },
   {
-      "code": 82142,
-      "size": "60x3000×17",
-      "image": "../img/product-82.png",
-      "categoryId": 4,
-      "id": 71
+    "id": 75,
+    "code": 81008,
+    "size": "60x3000×17",
+    "categoryId": 4
   },
   {
-      "code": 86006,
-      "size": "60x3000×17",
-      "image": "../img/product-83.png",
-      "categoryId": 4,
-      "id": 72
+    "id": 76,
+    "code": 82142,
+    "size": "60x3000×17",
+    "categoryId": 4
   },
   {
-      "code": 61033,
-      "size": "3000×125",
-      "image": "../img/product-84.png",
-      "categoryId": 5,
-      "id": 73
+    "id": 77,
+    "code": 82154,
+    "size": "60x3000×17",
+    "categoryId": 4
   },
   {
-      "code": 86009,
-      "size": "3000×125",
-      "image": "../img/product-85.png",
-      "categoryId": 5,
-      "id": 74
+    "id": 78,
+    "code": 86057,
+    "size": "60x3000×17",
+    "categoryId": 4
   },
+
   {
-      "code": 61009,
-      "size": "3000×125",
-      "image": "../img/product-86.png",
-      "categoryId": 5,
-      "id": 75
+    "id": 79,
+    "code": 8013,
+    "size": "3000×125",
+    "categoryId": 5
   },
   {
-      "code": 8214,
-      "size": "3000×125",
-      "image": "../img/product-87.png",
-      "categoryId": 5,
-      "id": 76
+    "id": 80,
+    "code": 61008,
+    "size": "3000×125",
+    "categoryId": 5
   },
   {
-      "code": 82142,
-      "size": "3000×125",
-      "image": "../img/product-88.png",
-      "categoryId": 5,
-      "id": 77
+    "id": 81,
+    "code": 61026,
+    "size": "3000×125",
+    "categoryId": 5
   },
   {
-      "code": 86057,
-      "size": "3000×125",
-      "image": "../img/product-89.png",
-      "categoryId": 5,
-      "id": 78
+    "id": 82,
+    "code": 80073,
+    "size": "3000×125",
+    "categoryId": 5
   },
   {
-      "code": 92079,
-      "size": "3000×125",
-      "packageCount": "18",
-      "image": "../img/product-90.png",
-      "categoryId": 5,
-      "id": 79
+    "id": 83,
+    "code": 86056,
+    "size": "3000×125",
+    "categoryId": 5
   },
   {
-      "code": 8013,
-      "size": "3000×125",
-      "image": "../img/product-91.png",
-      "categoryId": 5,
-      "id": 80
+    "id": 84,
+    "code": 88024,
+    "size": "3000×125",
+    "categoryId": 5
   },
   {
-      "code": 91022,
-      "size": "3000×125",
-      "image": "../img/product-92.png",
-      "categoryId": 5,
-      "id": 81
+    "id": 85,
+    "code": 88034,
+    "size": "3000×125",
+    "categoryId": 5
   },
   {
-      "code": 61026,
-      "size": "3000×125",
-      "image": "../img/product-93.png",
-      "categoryId": 5,
-      "id": 82
+    "id": 86,
+    "code": 88056,
+    "size": "3000×125",
+    "categoryId": 5
   },
   {
-      "code": 80121,
-      "size": "3000×125",
-      "image": "../img/product-94.png",
-      "categoryId": 5,
-      "id": 83
+    "id": 87,
+    "code": 92017,
+    "size": "3000×125",
+    "categoryId": 5
   },
   {
-      "code": 8018,
-      "size": "3000×125",
-      "image": "../img/product-95.png",
-      "categoryId": 5,
-      "id": 84
-  }
+    "id": 88,
+    "code": 92079,
+    "size": "3000×125",
+    "categoryId": 5
+  },
+
+  {
+    "id": 89,
+    "code": 3013,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 90,
+    "code": 3018,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 91,
+    "code": 8018,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 92,
+    "code": 8513,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 93,
+    "code": 9217,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 94,
+    "code": 61008,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 95,
+    "code": 61009,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 96,
+    "code": 61026,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 97,
+    "code": 80073,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 98,
+    "code": 82142,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 99,
+    "code": 82154,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 100,
+    "code": 83008,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 101,
+    "code": 85013,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 102,
+    "code": 86056,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+  {
+    "id": 103,
+    "code": 92079,
+    "size": "3000×125",
+    "categoryId": 6
+  },
+
+  {
+    "id": 104,
+    "code": 8214,
+    "size": "3000×125",
+    "categoryId": 7
+  },
+  {
+    "id": 105,
+    "code": 61008,
+    "size": "3000×125",
+    "categoryId": 7
+  },
+  {
+    "id": 106,
+    "code": 61026,
+    "size": "3000×125",
+    "categoryId": 7
+  },
+  {
+    "id": 107,
+    "code": 80073,
+    "size": "3000×125",
+    "categoryId": 7
+  },
+  {
+    "id": 108,
+    "code": 80121,
+    "size": "3000×125",
+    "categoryId": 7
+  },
+  {
+    "id": 109,
+    "code": 82142,
+    "size": "3000×125",
+    "categoryId": 7
+  },
+  {
+    "id": 110,
+    "code": 82154,
+    "size": "3000×125",
+    "categoryId": 7
+  },
+  // {
+  //   "id": 111,
+  //   "code": 86006,
+  //   "size": "3000×125",
+  //   "categoryId": 7
+  // },
+  {
+    "id": 112,
+    "code": 86057,
+    "size": "3000×125",
+    "categoryId": 7
+  },
+  // {
+  //   "id": 113,
+  //   "code": 92017,
+  //   "size": "3000×125",
+  //   "categoryId": 7
+  // },
+  {
+    "id": 114,
+    "code": 92079,
+    "size": "3000×125",
+    "categoryId": 7
+  },
 ];
 
 if (window.location.pathname.includes('contact')) {
