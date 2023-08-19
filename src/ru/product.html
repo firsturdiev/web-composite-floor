@@ -308,7 +308,9 @@
       <div class="flex flex-wrap justify-center items-center">
         <div class="w-full px-4 mb-8 md:mb-0">
           <div class="w-full relative mb-10">
-            <img class="w-full h-full zoom" id="img" alt="">
+            <div class="wrapper7" style="display: flex;">
+              <img data-magnify="gallery" class="w-full h-full zoom" id="img" alt="">
+            </div>
           </div>
         </div>
         <div class="w-full px-4">
@@ -463,7 +465,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- <script type="module" src="https://spin.js.org/spin.js"></script> -->
   <script type="module">
-    import {Spinner} from 'https://spin.js.org/spin.js';
+    import { Spinner } from 'https://spin.js.org/spin.js';
 
     const url = new URL(window.location.href);
     const params = new URLSearchParams(url.search);
@@ -507,6 +509,13 @@
       document.querySelector('#class').parentElement.style.display = 'none';
       document.querySelector('#code').textContent = product.code;
       document.querySelector('#size').textContent = `${product.size} мм`;
+    } else if (product.categoryId == 6 || product.categoryId == 5) {
+      document.querySelector('#img').insertAdjacentHTML('afterend', `<img data-magnify="gallery" class="w-full h-full zoom" id="img2" src="../../zoom-pics/${product.categoryId}-${product.code}.jpg" data-magnify-src="../../zoom-pics/${product.categoryId}-${product.code}.jpg">`);
+      document.querySelector('#img').src = `../../zoom-pics/${product.categoryId}-${product.code}.jpg`;
+      document.querySelector('#img').setAttribute('data-magnify-src', `../../zoom-pics/${product.categoryId}-${product.code}.jpg`);
+      document.querySelector('#class').parentElement.style.display = 'none';
+      document.querySelector('#code').textContent = product.code;
+      document.querySelector('#size').textContent = `${product.size} мм`;
     } else {
       document.querySelector('#img').src = `../../zoom-pics/${product.categoryId}-${product.code}.jpg`;
       document.querySelector('#img').setAttribute('data-magnify-src', `../../zoom-pics/${product.categoryId}-${product.code}.jpg`);
@@ -517,37 +526,12 @@
 
     $(document).ready(function () {
 
-      $('.zoom').magnify({
+      $("[data-magnify=gallery]").magnify({
         magnifiedWidth: 1100,
         magnifiedHeight: 1100
       });
 
     });
-    
-
-    var opts = {
-      lines: 13,
-      length: 38,
-      width: 17,
-      radius: 45,
-      scale: 1,
-      corners: 1,
-      speed: 1,
-      rotate: 0,
-      animation: 'spinner-line-fade-quick',
-      direction: 1,
-      color: '#ffffff',
-      fadeColor: 'transparent',
-      top: '50%',
-      left: '50%',
-      shadow: '0 0 1px transparent',
-      zIndex: 2000000000,
-      className: 'spinner',
-      position: 'absolute',
-    };
-
-    var target = document.getElementById('img');
-    var spinner = new Spinner(opts).spin(target);
   </script>
 </body>
 

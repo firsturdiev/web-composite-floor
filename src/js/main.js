@@ -998,12 +998,6 @@ window.data = [
     "size": "80x3000",
     "categoryId": 3
   },
-  {
-    "id": 37,
-    "code": 72002,
-    "size": "80x3000",
-    "categoryId": 3
-  },
   // {
   //   "id": 38,
   //   "code": 72067,
@@ -1097,6 +1091,12 @@ window.data = [
   {
     "id": 53,
     "code": '61026-2',
+    "size": "100x3000",
+    "categoryId": 3
+  },
+  {
+    "id": 37,
+    "code": 72002,
     "size": "100x3000",
     "categoryId": 3
   },
@@ -1316,91 +1316,91 @@ window.data = [
   {
     "id": 89,
     "code": 3013,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 90,
     "code": 3018,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 91,
     "code": 8018,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 92,
     "code": 8513,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 93,
     "code": 9217,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 94,
     "code": 61008,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 95,
     "code": 61009,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 96,
     "code": 61026,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 97,
     "code": 80073,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 98,
     "code": 82142,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 99,
     "code": 82154,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 100,
     "code": 83008,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 101,
     "code": 85013,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 102,
     "code": 86056,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
   {
     "id": 103,
     "code": 92079,
-    "size": "3000×125",
+    "size": "3000×400",
     "categoryId": 6
   },
 
@@ -1464,12 +1464,12 @@ window.data = [
   //   "size": "3000×125",
   //   "categoryId": 7
   // },
-  {
-    "id": 114,
-    "code": 92079,
-    "size": "3000×125",
-    "categoryId": 7
-  },
+  // {
+  //   "id": 114,
+  //   "code": 92079,
+  //   "size": "3000×125",
+  //   "categoryId": 7
+  // },
 ];
 
 if (window.location.pathname.includes('contact')) {
